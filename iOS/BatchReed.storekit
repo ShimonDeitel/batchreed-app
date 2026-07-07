@@ -1,0 +1,42 @@
+{
+  "identifier": "batchreed",
+  "nonRenewingSubscriptions": [],
+  "products": [],
+  "settings": {
+    "_askToBuyEnabled": false
+  },
+  "subscriptionGroups": [
+    {
+      "id": "21500000",
+      "localizations": [],
+      "name": "BatchReed Pro",
+      "subscriptions": [
+        {
+          "adHocOffers": [],
+          "codeOffers": [],
+          "displayPrice": "1.99",
+          "familyShareable": false,
+          "groupNumber": 1,
+          "internalID": "batchreed_pro_monthly",
+          "introductoryOffer": null,
+          "localizations": [
+            {
+              "description": "Soak timers with material quantity calculator per basket size.",
+              "displayName": "BatchReed Pro",
+              "locale": "en_US"
+            }
+          ],
+          "productID": "batchreed_pro_monthly",
+          "recurringSubscriptionPeriod": "P1M",
+          "referenceName": "BatchReed Pro Monthly",
+          "subscriptionGroupID": "21500000",
+          "type": "RecurringSubscription"
+        }
+      ]
+    }
+  ],
+  "version": {
+    "major": 3,
+    "minor": 0
+  }
+}
