@@ -8,14 +8,7 @@ struct Basket: Identifiable, Codable, Equatable {
     var dimensions: String
     var createdDate: Date
 
-    init(
-        id: UUID = UUID(),
-        basketName: String = "Market Basket",
-        reedSize: String = "#3 Round",
-        weavePattern: String = "Plain",
-        dimensions: String = "10x8x6",
-        createdDate: Date = Date()
-    ) {
+    init(id: UUID = UUID(), basketName: String = "Market Basket", reedSize: String = "#3 Round", weavePattern: String = "Plain", dimensions: String = "10x8x6", createdDate: Date = Date()) {
         self.id = id
         self.basketName = basketName
         self.reedSize = reedSize
@@ -34,14 +27,7 @@ struct BRProEntry: Identifiable, Codable, Equatable {
     var basketSize: String
     var createdDate: Date
 
-    init(
-        id: UUID = UUID(),
-        reedType: String = "#3 Round",
-        soakMinutes: String = "10",
-        quantityNeeded: String = "40",
-        basketSize: String = "10x8x6",
-        createdDate: Date = Date()
-    ) {
+    init(id: UUID = UUID(), reedType: String = "#3 Round", soakMinutes: String = "10", quantityNeeded: String = "40", basketSize: String = "10x8x6", createdDate: Date = Date()) {
         self.id = id
         self.reedType = reedType
         self.soakMinutes = soakMinutes
