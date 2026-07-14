@@ -174,9 +174,9 @@ struct BasketFormView: View {
     private func save() {
         switch mode {
         case .add:
-            store.addBasket(draftBasketName, draftReedSize, draftWeavePattern, draftDimensions, isPro: purchases.isPro)
+            store.addBasket(basketName: draftBasketName, reedSize: draftReedSize, weavePattern: draftWeavePattern, dimensions: draftDimensions, isPro: purchases.isPro)
         case .edit(let item):
-            store.updateBasket(item.id, draftBasketName, draftReedSize, draftWeavePattern, draftDimensions)
+            store.updateBasket(item.id, basketName: draftBasketName, reedSize: draftReedSize, weavePattern: draftWeavePattern, dimensions: draftDimensions)
         }
         BRHaptics.success()
         dismiss()
